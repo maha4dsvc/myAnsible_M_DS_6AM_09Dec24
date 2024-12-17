@@ -1,4 +1,4 @@
-[mywebserver]
+[mywebServer]
 10.1.0.5
 10.1.0.6
 
@@ -17,3 +17,9 @@
 
 [myredharserver]
 10.1.0.6
+
+[mywebServer:vars]
+var=value
+mywebpackonubuntu=apache2222222
+mywebpackonredhat=httpd
+
