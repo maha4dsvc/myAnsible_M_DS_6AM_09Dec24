@@ -18,8 +18,5 @@
 [myredharserver]
 10.1.0.6
 
-[mywebServer:vars]
-var=value
-mywebpackonubuntu=apache2
-mywebpackonredhat=httpd
+
 
