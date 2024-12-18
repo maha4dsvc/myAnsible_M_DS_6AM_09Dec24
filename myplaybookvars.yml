@@ -11,6 +11,11 @@
        msg: "{{var01}}"
   - name: i want execute direct linux command
     command: hostname -f
+    register: myresult
+
+  - name: i want display above tast result 
+    debug:
+       msg: "{{myresult}}"
 
     
 
