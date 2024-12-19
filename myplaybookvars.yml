@@ -2,13 +2,13 @@
 - hosts: 10.1.0.5
   become: yes
   vars:
-     var01: git
-     var02: tree
-     var03: wget
+      var01: git
+      var02: tree
+      var03: wget
   tasks:
   - name: i want to display var01
     debug:
-       msg: "{{var01}}"
+        msg: "{{var01}}"
   - name: i want execute direct linux command
     command: hostname -f
     register: myresult
@@ -19,8 +19,8 @@
 
   - name: install git 
     apt:
-      name:  git
-      state: present 
+       name:  git
+       state: present 
     when: myresult.stderr!=""
 
   - name: install tree
