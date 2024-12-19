@@ -21,4 +21,10 @@
     template:
        src: myindex.j2
        dest: /var/www/html/index.html
+
+  - name:  i want to download internetfile
+    get_url:
+       url: https://github.com/maha4dsvc/myAnsible_M_DS_6AM_09Dec24/blob/main/installjava.yml
+       dest: /home/maha/
+       force_basic_auth: yes
  
