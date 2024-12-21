@@ -1,0 +1,6 @@
+---
+- name: deploy java app
+  get_url:
+    url: https://mystorage18sep24.blob.core.windows.net/mahafolder01/login.war
+    dest: /opt/tomcat/apache-tomcat-10.1.34/webapps/login.war
+    force_basic_auth: yes
