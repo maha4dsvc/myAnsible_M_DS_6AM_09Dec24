@@ -1,6 +1,6 @@
 --- 
 - name: change owner on tomcat folder 
-  command: sudo chown -R tomcat /opt/tomcat
+  command: sudo chown -R tomcat /opt/tomcat/apache-tomcat-10.1.34
 
 - name: change execute permissions 
-  command: sudo sh -c 'chmod +x /opt/tomcat/bin/*.sh'
+  command: sudo sh -c 'chmod +x /opt/tomcat/apache-tomcat-10.1.34/bin/*.sh'
