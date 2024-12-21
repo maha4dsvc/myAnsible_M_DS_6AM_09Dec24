@@ -4,8 +4,7 @@
 
 
 [myappserver]
-10.1.0.10
-10.1.0.11
+10.1.0.7
 
 
 [myDBserver]
